@@ -1,0 +1,32 @@
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.98;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.copyright{
+    color:gray;
+    font-style:oblique;
+    font-weight: 500;
+}
+.connects{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.connects>div{
+    margin:20px;
+}
+.heart{
+    color: red;
+    cursor: pointer;
+}
+.connects h3{
+    font-size: 18px;
+}
+

@@ -1,23 +1,59 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Projects from './components/Projects';
+import Skillset from './components/Skillset';
+import Contact from  './components/Contact'
+import Footer from './components/Footer';
+import scrollreveal from 'scrollreveal';
+import {useEffect} from "react";
+import ScrollToTop from './components/ScrollToTop';
+import Personalinfo from './components/Personalinfo';
 
 function App() {
+
+  useEffect(() => {
+    const sr = scrollreveal({
+      origin: 'bottom',
+      distance: '80px',
+      duration: 2000,
+      opacity: 0.8,
+      reset: true
+    });
+    sr.reveal(`.title,
+    .profile,
+    .resumedow,
+    .scDownBtn,
+    .heading,
+    .each-slide-effect,
+    .skillsets,
+    .contact,
+    .connects,
+    .copyright
+    `, {
+      opacity: 0,interval:200
+    }
+  );
+    
+  }, []);
+    
+    
+
+
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ScrollToTop />
+      <Header />
+      <Main />
+      <Projects />
+      <Skillset />
+      <Personalinfo />
+      <Contact />
+      <Footer />
+ 
+      
     </div>
   );
 }
