@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const sr = scrollreveal({
       origin: 'bottom',
-      distance: '80px',
+      distance: '30px',
       duration: 2000,
       opacity: 0.8,
       reset: true
