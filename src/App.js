@@ -18,7 +18,7 @@ function App() {
       distance: '30px',
       duration: 2000,
       opacity: 0.8,
-      reset: true
+      reset: false
     });
     sr.reveal(`.title,
     .profile,

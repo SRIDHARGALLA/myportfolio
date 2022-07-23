@@ -16,8 +16,7 @@ const Personalinfo = () => {
         });
 
         sr.reveal(`.resume-title,
-          .resume-item,
-          .contact
+          .resume-item
         `, {
           opacity: 0,
           interval:200
