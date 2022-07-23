@@ -9,14 +9,15 @@ const Personalinfo = () => {
     useEffect(() => {
         const sr = scrollreveal({
           origin: 'right',
-          distance: '80px',
+          distance: '30px',
           duration: 2000,
           opacity: 0.8,
-          reset: true
+          reset: false
         });
 
         sr.reveal(`.resume-title,
-          .resume-item
+          .resume-item,
+          .contact
         `, {
           opacity: 0,
           interval:200

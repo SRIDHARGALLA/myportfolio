@@ -26,8 +26,7 @@ function App() {
     .scDownBtn,
     .heading,
     .each-slide-effect,
-    .skillsets,
-    .contact
+    .skillsets
     `, {
       opacity: 0,interval:200
     }

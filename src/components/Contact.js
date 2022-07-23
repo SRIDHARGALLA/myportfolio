@@ -1,9 +1,33 @@
 import React from 'react'
 import './Contact.css'
+import scrollreveal from 'scrollreveal';
+import {useEffect} from "react";
 
 
 
 const Contact = () => {
+
+
+  useEffect(() => {
+    const sr = scrollreveal({
+      origin: 'left',
+      distance: '30px',
+      duration: 2000,
+      opacity: 0.8,
+      reset: false
+    });
+
+    sr.reveal(`.resume-title,
+      .resume-item,
+      .contact
+    `, {
+      opacity: 0,
+      interval:20
+    }
+
+  );
+    
+  }, []);
 
   return (
     <div className='contact'>
