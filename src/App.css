@@ -12,7 +12,6 @@
 @media  screen and (max-width:600px) {
   .App{
     max-height: 150vh;
-    width: 100%;
   }
   .main{
     width:100%;
@@ -34,6 +33,9 @@
     width: 180px;
   }
   .sidebar{
-    width: 260px;
+    width: 250px;
+  }
+  .header{
+    width: 280px;
   }
 }
