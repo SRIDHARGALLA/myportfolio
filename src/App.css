@@ -9,9 +9,3 @@
   width: 100%;
 }
 
-@media (min-width:320px) and (max-width:480px) {
-  .App{
-    max-height: 100vh;
-  }
-
-}
