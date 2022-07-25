@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     const sr = scrollreveal({
-      origin: 'top',
+      origin: 'left',
       distance: '30px',
       duration: 2000,
       opacity: 0.8,
@@ -29,8 +29,8 @@ function App() {
     .skillsets,
     .contact,
     .copyright,
-    .resume-title,
-    .resume-item
+    .connects
+
     `, {
       opacity: 0
     }
