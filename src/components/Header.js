@@ -35,6 +35,7 @@ const Header = () => {
             document.querySelector(".connects .bi-linkedin").style.color=color;
             document.querySelector(".brandname .s_up").style.color=color;
             document.querySelector(".brandname .g_down").style.color=color;
+            document.querySelector(".main").style.backgroundImage=`radial-gradient(at top left, transparent 67%,${color} 67.1%),linear-gradient(135deg, #070707 0%, #1b1e24 100%)`;
 
             document.querySelector(".copyright").style.color=color;
 
@@ -64,6 +65,7 @@ const Header = () => {
             document.querySelector(".connects .bi-linkedin").style.color="";
             document.querySelector(".brandname .s_up").style.color="";
             document.querySelector(".brandname .g_down").style.color="";
+            document.querySelector(".main").style.backgroundImage="";
 
             document.querySelector(".copyright").style.color="";
 

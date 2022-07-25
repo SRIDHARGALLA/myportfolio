@@ -13,6 +13,8 @@
   .App{
     max-height: 115vh;
     width: 480px;
+    background-image: url("");
+
   }
   .heading > h3{
     color:black;
@@ -27,7 +29,11 @@
     flex-direction: column;
  }
  .sidebar{
-      max-height: 800vh;
+    height: 1000px;
+ }
+ .main{
+  background-image: radial-gradient(at top left, transparent 67%,#fff 67.1%),linear-gradient(135deg, #070707 0%, #1b1e24 100%);
+
  }
 
 }
