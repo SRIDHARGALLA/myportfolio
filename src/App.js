@@ -14,11 +14,11 @@ function App() {
 
   useEffect(() => {
     const sr = scrollreveal({
-      origin: 'bottom',
+      origin: 'left',
       distance: '30px',
       duration: 2000,
       opacity: 0.8,
-      reset: false
+      reset: true
     });
     sr.reveal(`.title,
     .profile,
@@ -26,9 +26,10 @@ function App() {
     .scDownBtn,
     .heading,
     .each-slide-effect,
-    .skillsets
+    .skillsets,
+    .contact
     `, {
-      opacity: 0,interval:200
+      opacity: 0
     }
   );
     

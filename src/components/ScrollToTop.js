@@ -4,7 +4,8 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 export default function ScrollToTop() {
   const [scrollState, setScrollState] = useState(false);
   const toTop = () => {
-    window.scrollTo({ top: 0 });
+    window.scrollTo({ top: 0,behavior: 'smooth' })
+ 
   };
   window.addEventListener("scroll", () => {
     window.pageYOffset > 200 ? setScrollState(true) : setScrollState(false);
@@ -29,11 +30,13 @@ const ToTop = styled.div`
   svg {
     transition: 0.3s ease-in-out;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
+    transform: scale(1.5);
+
   }
   &:hover {
     svg {
-      transform: scale(1.8);
+      transform: scale(2);
     }
   }
 `;

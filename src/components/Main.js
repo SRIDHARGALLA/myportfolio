@@ -10,7 +10,7 @@ const Main = () => {
   function scrollDown() {
     // window.scrollBy(0,1000);
     window.scrollTo({
-      top: window.innerHeight,
+      top: 2800,
       behavior: 'smooth'
     });
     
@@ -22,7 +22,7 @@ const Main = () => {
       
         <div className='main-text'>
             <h2>Hi, I'm <span className='title'>Sridhar Galla</span></h2>
-            <h3> <span className='title'>Full Stack Developer.</span></h3>
+            <h3> <span className='title'>Frontend Developer.</span></h3>
         </div>
     
         <div className='main-image'>

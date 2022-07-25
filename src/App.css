@@ -1,15 +1,42 @@
 .App {
-  margin: 0px;
-  padding: 0px;
-  min-width: 100vh;
   background-image: radial-gradient(at top left, transparent 67%,#fff 67.1%),linear-gradient(135deg, #070707 0%, #1b1e24 100%);
   background-size: 120% 100%, cover;
   background-repeat: no-repeat;
-  margin: 0;
   max-height: 200vh;
   transition: all 0.3s ease-in;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
-body{
-  overflow-x:auto;
+@media  screen and (max-width:600px) {
+  .App{
+    max-height: 150vh;
+    width: 100%;
+  }
+  .heading >h3{
+    color:rgb(0, 0, 0);
+  }
+  .main{
+    width:100%;
+  }
+  .header{
+    width: 100%;
+  }
+  .footer{
+    width:100%;
+  }
+  .personalinfo{
+    width:100%;
+  }
+  .skillsets{
+    width: 100%;
+  }
+  .contact{
+    width: 100%;
+  }
+  .main-image .profile{
+    height: 200px;
+    width: 200px;
+  }
 }

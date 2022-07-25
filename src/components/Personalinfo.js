@@ -12,14 +12,13 @@ const Personalinfo = () => {
           distance: '30px',
           duration: 2000,
           opacity: 0.8,
-          reset: false
+          reset: true
         });
 
         sr.reveal(`.resume-title,
           .resume-item
         `, {
-          opacity: 0,
-          interval:200
+          opacity: 0
         }
 
       );

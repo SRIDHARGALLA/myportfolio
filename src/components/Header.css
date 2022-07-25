@@ -36,6 +36,15 @@
     border-radius: 50px;
     cursor: pointer;
 }
+.s_up{
+  margin-top:1rem;
+
+
+}
+.g_down{
+  margin-bottom: 1rem;
+  margin-left:-5px ;
+}
 
 h2{
     color: white;
@@ -70,7 +79,7 @@ svg:hover{
   }
 
 .sidebar{
-      width: 280px;
+      width: 400px;
       min-height: 100vh;
       box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
       background-color: rgb(0, 0, 0);
@@ -220,6 +229,7 @@ svg:hover{
 
 .theam-list{
    display: flex;
+   margin-bottom: 50px;
 
 }
 
@@ -227,13 +237,14 @@ ul li{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
 
 }
 
 .theam-list div{
    border-radius: 50%;
    background-color: #5a8dee;
-   margin: 10px;
+
 
 }
 .theam-list div input{
@@ -241,6 +252,7 @@ ul li{
   width: 30px; 
   opacity: 0;
   cursor: pointer;
+
 }
 
 .theamebtn{
@@ -249,11 +261,12 @@ ul li{
   height: 30px;
   width: 60px;
   font-weight: 750;
+  margin-top: 50px;
 
 }
 .theamebtn:hover{
   background-color: #12b4eaad;
-  margin-top: 1px;
+  margin-bottom: 1px;
 
 }
 
