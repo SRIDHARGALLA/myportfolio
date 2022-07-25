@@ -11,7 +11,7 @@
 
 @media only screen and (max-width:480px) {
   .App{
-    max-height: 120vh;
+    max-height: 110vh;
     width: 480px;
   }
   .heading > h3{

@@ -28,7 +28,6 @@ function App() {
     .each-slide-effect,
     .skillsets,
     .contact,
-    .connects,
     .resume-title,
     .resume-item
     `, {
