@@ -30,7 +30,7 @@ function App() {
     .contact,
     .connects,
     .resume-title,
-    .resume-item,
+    .resume-item
     `, {
       opacity: 0
     }
