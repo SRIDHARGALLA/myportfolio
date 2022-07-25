@@ -28,8 +28,9 @@ function App() {
     .each-slide-effect,
     .skillsets,
     .contact,
-    .connects,
-    .copyright
+    .copyright,
+    .resume-title,
+    .resume-item
     `, {
       opacity: 0
     }
