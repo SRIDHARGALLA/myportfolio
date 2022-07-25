@@ -11,31 +11,7 @@
 
 @media  (min-width:px) and (max-width:480px) {
   .App{
-    max-height: 150vh;
+    max-height: 100vh;
   }
-  .main{
-    width:100%;
-  }
-  .footer{
-    width:100%;
-  }
-  .personalinfo{
-    width:280px;
-  }
-  .skillsets{
-    width: 280px;
-  }
-  .contact{
-    width: 280px;
-  }
-  .main-image .profile{
-    height: 180px;
-    width: 180px;
-  }
-  .sidebar{
-    width: 180px;
-  }
-  .header{
-    width: fit-content;
-  }
+
 }
