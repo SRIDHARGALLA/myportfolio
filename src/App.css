@@ -9,3 +9,15 @@
   width: 100%;
 }
 
+@media (min-width:320px) and (max-width:480px) {
+  .App{
+    max-height: 150vh;
+  }
+  .heading > h3{
+    color:black;
+  }
+  .headerItems > div, .brand{
+    scale: 0.8;
+  }
+
+}
