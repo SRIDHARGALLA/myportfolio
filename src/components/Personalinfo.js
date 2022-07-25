@@ -1,32 +1,8 @@
 import React from 'react'
-import scrollreveal from 'scrollreveal';
-import {useEffect} from "react";
 import './Personalinfo.css'
 import Resume from '../assets/main/gsnvsc_resume.pdf'
 
 const Personalinfo = () => {
-
-    useEffect(() => {
-        const sr = scrollreveal({
-          origin: 'top',
-          distance: '30px',
-          duration: 2000,
-          opacity: 0.8,
-          reset: true
-        });
-
-        sr.reveal(`.resume-title,
-          .resume-item
-        `, {
-          opacity: 0
-        }
-
-      );
-        
-      }, []);
-
-
-
 
   return (
     <div className='personalinfo'>
