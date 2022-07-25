@@ -14,29 +14,26 @@
     max-height: 150vh;
     width: 100%;
   }
-  .heading >h3{
-    color:rgb(0, 0, 0);
-  }
   .main{
     width:100%;
-  }
-  .header{
-    width: 100%;
   }
   .footer{
     width:100%;
   }
   .personalinfo{
-    width:100%;
+    width:280px;
   }
   .skillsets{
-    width: 100%;
+    width: 280px;
   }
   .contact{
-    width: 100%;
+    width: 280px;
   }
   .main-image .profile{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
+  }
+  .sidebar{
+    width: 260px;
   }
 }

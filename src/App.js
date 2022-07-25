@@ -27,7 +27,9 @@ function App() {
     .heading,
     .each-slide-effect,
     .skillsets,
-    .contact
+    .contact,
+    .connects,
+    .copyright
     `, {
       opacity: 0
     }
