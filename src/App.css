@@ -11,7 +11,7 @@
 
 @media only screen and (max-width:480px) {
   .App{
-    max-height: 110vh;
+    max-height: 115vh;
     width: 480px;
   }
   .heading > h3{
@@ -27,7 +27,7 @@
     flex-direction: column;
  }
  .sidebar{
-      max-height: 600px;
+      max-height: 800vh;
  }
 
 }
