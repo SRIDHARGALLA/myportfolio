@@ -11,8 +11,8 @@
 
 @media only screen and (max-width:480px) {
   .App{
-    max-height: 130vh;
-    width: 600px;
+    max-height: 120vh;
+    width: 480px;
   }
   .heading > h3{
     color:black;
