@@ -8,7 +8,7 @@ const Personalinfo = () => {
 
     useEffect(() => {
         const sr = scrollreveal({
-          origin: 'right',
+          origin: 'top',
           distance: '30px',
           duration: 2000,
           opacity: 0.8,
