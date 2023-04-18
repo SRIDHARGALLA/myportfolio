@@ -22,6 +22,7 @@ function App() {
     });
     sr.reveal(`.title,
     .profile,
+    .ProRound,
     .resumedow,
     .scDownBtn,
     .heading,

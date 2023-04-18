@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import profile from '../assets/main/profile.png';
+import profile from '../assets/main/profile.jpg';
 import Resume from '../assets/main/gsnvsc_resume.pdf'
 
 
@@ -26,7 +26,9 @@ const Main = () => {
         </div>
     
         <div className='main-image'>
+          <div className='ProRound'>
             <img className='profile'src={profile} alt='sridhar galla' />
+          </div>
         </div>
         <div><a  href={Resume} download='isridhargalla_cv'> <input type='button' value='Resume' className='resumedow'/></a></div>
         <div className='scDownBtn'>  
