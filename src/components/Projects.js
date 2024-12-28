@@ -19,7 +19,7 @@ const Projects = () => {
                     Todo App 
                 </span>
 
-               <a href='https://github.com/SRIDHARGALLA/TodoApp' target='_blank'> <input type='button' className='probtn' value='View Source Code'/></a>
+               <a href='https://github.com/SRIDHARGALLA/TodoApp' rel="noreferrer"> <input type='button' className='probtn' value='View Source Code'/></a>
         </div>
     </div>
     <div className="each-slide-effect">
@@ -31,8 +31,8 @@ const Projects = () => {
             Parking Lot Management System
         </span>
          <div>
-         <a  className='pro-link' href=' https://sridhargalla.github.io/parking_lot_management_system/' target='_blank'> <input type='button' className='probtn' value='Go Live'/></a>
-        <a className='pro-link' href='https://github.com/SRIDHARGALLA/parking_lot_management_system' target='_blank'> <input type='button' className='probtn' value='View Source Code'/></a>
+         <a  className='pro-link' href=' https://sridhargalla.github.io/parking_lot_management_system/' rel="noreferrer"> <input type='button' className='probtn' value='Go Live'/></a>
+        <a className='pro-link' href='https://github.com/SRIDHARGALLA/parking_lot_management_system' rel="noreferrer"> <input type='button' className='probtn' value='View Source Code'/></a>
         </div>
         </div>
     </div>
@@ -45,9 +45,9 @@ const Projects = () => {
             Simple Calculator
         </span>
         <div>
-        <a className='pro-link' href=' https://sridhargalla.github.io/simplecalculator/' target='_blank'> <input type='button' className='probtn' value='Go Live'/></a>
+        <a className='pro-link' href=' https://sridhargalla.github.io/simplecalculator/' rel="noreferrer"> <input type='button' className='probtn' value='Go Live'/></a>
 
-        <a className='pro-link' href='https://github.com/SRIDHARGALLA/simplecalculator' target='_blank'> <input type='button' className='probtn' value='View Source Code'/></a>
+        <a className='pro-link' href='https://github.com/SRIDHARGALLA/simplecalculator' rel="noreferrer"> <input type='button' className='probtn' value='View Source Code'/></a>
         </div>
         </div>
     </div>

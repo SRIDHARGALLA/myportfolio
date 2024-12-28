@@ -14,7 +14,7 @@ const Personalinfo = () => {
             <p><em>Bharath Institute Of Heigher Education and Research, Chennai.</em></p>
             <h5>Objective</h5>
             <p>To obtain a position as a  software engineer  in a challenging  environment for  a dynamic company that create and develops well-designed products.</p>
-           <a  href={Resume}  target='_blank'> <button className='resumebtn'>View Resume</button></a>
+           <a  href={Resume}  rel="noreferrer"> <button className='resumebtn'>View Resume</button></a>
         </div>
         </div>
     </div>
