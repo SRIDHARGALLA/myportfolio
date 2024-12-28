@@ -9,14 +9,23 @@ const Skillset = () => {
         <div className='skillset'>
         
 
-        <p  className='skillname'>HTML</p>
+        <p  className='skillname'>React JS</p>
         <div className='skillcontainer'>
-            <div className='skills html'></div>
+            <div className='skills rjs'></div>
         </div>
 
-        <p  className='skillname'>CSS</p>
+        <p  className='skillname'>Java SE</p>
         <div className='skillcontainer'>
-            <div className='skills css'></div>
+            <div className='skills jse'></div>
+        </div>
+
+        <p  className='skillname'>Spring boot</p>
+        <div className='skillcontainer'>
+            <div className='skills sb'></div>
+        </div>
+        <p  className='skillname'>MERN stack</p>
+        <div className='skillcontainer'>
+            <div className='skills ms'></div>
         </div>
         <p  className='skillname'>JavaScript</p>
         <div className='skillcontainer'>

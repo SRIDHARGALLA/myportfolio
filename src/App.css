@@ -1,5 +1,5 @@
 .App {
-  background-image: radial-gradient(at top left, transparent 67%,#fff 67.1%),linear-gradient(135deg, #070707 0%, #1b1e24 100%);
+  background-image: radial-gradient(at top left, transparent 64%,#fff 64.1%),linear-gradient(135deg, #070707 0%, #1b1e24 100%);
   background-size: 120% 100%, cover;
   background-repeat: no-repeat;
   max-height: 200vh;

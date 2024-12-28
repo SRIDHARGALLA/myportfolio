@@ -16,7 +16,7 @@
 }
 .skillset{
     width:450px;
-    height: 300px;
+    height: auto;
 
 }
 
@@ -29,16 +29,26 @@
     height: 10px;
     border-radius: 10px;
 }
-.html{
-    width: 96%;
+.rjs{
+    width: 90%;
     background-color: black;
 }
-.css{
-    width: 85%;
+.jse{
+    width: 91%;
     background-color: black;
 }
+.sb{
+    width: 95%;
+    background-color: black;
+}
+
+.ms{
+    width: 80%;
+    background-color: black;
+}
+
 .js{
-    width: 70%;
+    width: 85%;
     background-color: black;
 }
 .py{

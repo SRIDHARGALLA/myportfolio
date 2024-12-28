@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import profile from '../assets/main/profile.jpg';
+import profile from '../assets/main/profile.jpeg';
 import Resume from '../assets/main/gsnvsc_resume.pdf'
 
 
@@ -22,7 +22,7 @@ const Main = () => {
       
         <div className='main-text'>
             <h2>Hi, I'm <span className='title'>Sridhar Galla</span></h2>
-            <h3> <span className='title'>Frontend Developer.</span></h3>
+            <h3> <span className='title'>Full Stack Developer.</span></h3>
         </div>
     
         <div className='main-image'>
